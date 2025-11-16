@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Node Static Example</title>
+  <link rel="stylesheet" href="./public/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Welcome to My Static Page</h1>
+    <p class="subtitle">Served from Node.js</p>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>My Photo</h2>
+      <!-- image file should be at public/images/photo.jpg -->
+      <figure>
+        <img src="image.jpg" alt="Sample Photo" class="hero-img" />
+        <figcaption>A sample image displayed from the server.</figcaption>
+      </figure>
+      <p>This page and styles are static files imported and served by Node.js.</p>
+      <a class="btn" href="image.jpg" download>Download Image</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>Made for testing static file import with Node.js</small>
+  </footer>
+</body>
+</html>
